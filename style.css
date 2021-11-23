@@ -9,18 +9,19 @@ body{
 
 h1{
     font-family: 'Road Rage', cursive;
-    font-size: 200px;
+    font-size: 130px;
     font-weight: 200;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: line-through 5px;
     margin: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     color: #fff;
 }
 
 #imagem{
     text-align: center;
     border-radius: 50% 50%;
+    margin-top: 30px;
 }
 
 h2, h3{
@@ -33,7 +34,7 @@ h2, h3{
 p, li{
     color: #fff;
     font-family: 'Indie Flower', cursive;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500;
 }
 
@@ -49,16 +50,17 @@ ul{
     display: contents;
 }
 
-a{
+.lista_indice{
     color: #fff;
+    border-left: 2px solid;
     text-decoration: none;
     padding: 0px 30px;
 }
 
 #linkedin{
-    width: 200px;
+    width: 150px;
 }
 
 #github{
-    width: 100px;
+    width: 120px;
 }
