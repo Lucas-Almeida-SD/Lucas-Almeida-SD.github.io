@@ -1,0 +1,70 @@
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  animation: appear 1s ease-in-out;
+}
+
+.about-image-div {
+  text-align: center;
+  position: relative;
+  width: 40%;
+}
+
+.about-image-div #vanilla-tilt-about-div {
+  position: absolute;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  top: 10% !important;
+  left: 20% !important;
+  z-index: 1 !important;
+  width: 60% !important;
+  box-shadow: 0 0 8px black !important;
+  background-color: rgb(255, 255, 255, .2) !important;
+  border-radius: 50% !important;
+}
+
+.about-image-div #lucasAlmeida {
+  width: 100%;
+  transform: translateY(4px);
+}
+
+.about-image-div .blob-div {
+  position: relative;
+  opacity: .3;
+  width: 100%;
+}
+
+.about-image-div .blob {
+  width: 100%;
+}
+
+.about-image-div .blob:nth-child( 2 ) , .about-image-div .blob:nth-child( 3 ) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-image-div .blob:nth-child( 3 ) {
+  width: 70%;
+  left: 20%;
+  transform: rotateZ(-30deg);
+}
+
+.about-text-div {
+  color: #E0D09B;
+  line-height: 1.6em;
+  text-align: justify;
+  margin-top: 4%;
+  margin-right: 60px;
+  width: 50%;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
