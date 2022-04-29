@@ -1,3 +1,4 @@
+import React from 'react';
 import Tilt from 'react-vanilla-tilt';
 import Header from '../components/Header';
 import lucasAlmeida from '../imgs/LucasAlmeida.png'

@@ -15,7 +15,6 @@ function Projetos() {
             <img src={ backgroundProjects } alt="Background de Projetos" />
           </div>
           <div className="projects-div">
-            <h2>Alguns Projetos</h2>
             {images.map((e) => (
               <div key={ e.name } className="projects-image-div">
                 <a href={e.url} target="_blank" rel="noreferrer">

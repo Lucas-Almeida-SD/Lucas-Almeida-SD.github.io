@@ -33,12 +33,6 @@
   }
 }
 
-.projects-div h2 {
-  color: #ffbb00;
-  text-align: center;
-  width: 100%;
-}
-
 .projects-image-div {
   transition: 1s;
   margin: 20px;

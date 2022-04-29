@@ -1,10 +1,10 @@
-import { Route } from 'react-router-dom';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
-import Projetos from './pages/Projects';
 import Sobre from './pages/About';
 import Skills from './pages/Skills';
+import Projetos from './pages/Projects';
 
 function App() {
   return (
