@@ -68,3 +68,25 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 910px) {
+  .about-text-div {
+    font-size: .8em;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image-div {
+    width: 50%;
+  }
+
+  .about-text-div {
+    width: 80%;
+  }
+}

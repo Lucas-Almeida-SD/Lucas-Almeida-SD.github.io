@@ -177,10 +177,6 @@ header .selected span {
   }
 }
 
-@media screen and (max-width: 480px) {
-  
-}
-
 @keyframes shrink {
   0% {
     width: 120px;
