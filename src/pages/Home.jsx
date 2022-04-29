@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import programming from '../imgs/programming.svg';
+import linkedin from '../imgs/linkedin.svg';
+import github from '../imgs/github.svg';
 import './home.css';
 const text = 'Desenvolvedor Web';
 
@@ -55,6 +57,22 @@ function Home() {
                 <span>|</span>
               </h2>
             </div>
+            <nav>
+              <a
+                href="https://linkedin.com/in/lucas-almeida-sd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="contact-linkedin" src={ linkedin } alt="LinkedIn" />
+              </a>
+              <a
+                href="https://github.com/Lucas-Almeida-SD"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="contact-github" src={ github } alt="Github" />
+              </a>  
+            </nav>
           </div>
           <div className="programming-image-div">
             <img src={ programming } alt="programming" />

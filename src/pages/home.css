@@ -15,17 +15,7 @@
 }
 
 .introduce-div div {
-  position: absolute;
   width: 100%;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .introduce-div h3 {
@@ -50,13 +40,32 @@
   animation: pisca .5s infinite;
 }
 
-@keyframes pisca {
-  0%, 100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
+.introduce-div nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.introduce-div nav img {
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  margin-right: 12px;
+  width: 30px;
+  padding: 4px;
+  transition: 1s;
+}
+
+.introduce-div nav .contact-linkedin:hover {
+  background-color: rgb(2,113,174);
+}
+
+.introduce-div nav .contact-github:hover {
+  background-color: rgb(67,67,67);
 }
 
 .programming-image-div {
@@ -66,4 +75,22 @@
 .programming-image-div img {
   opacity: .8;
   width: 100%;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pisca {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
