@@ -9,7 +9,7 @@ function Projetos() {
   return (
     <>
       <Header pageSelected="PROJECTS" />
-      <main>
+      <main className="main-projects">
         <section className="projects-section">
           <div className="projects-background-div">
             <img src={ backgroundProjects } alt="Background de Projetos" />
@@ -19,7 +19,7 @@ function Projetos() {
               <div key={ e.name } className="projects-image-div">
                 <a href={e.url} target="_blank" rel="noreferrer">
                   <Tilt id="vanilla-tilt-div">
-                      <h3>{e.name}</h3>
+                      <h3><span>{e.name}</span></h3>
                       <img
                       src={ e.src }
                       alt={ e.name }

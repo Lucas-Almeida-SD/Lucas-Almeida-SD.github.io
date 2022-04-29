@@ -1,36 +1,28 @@
-.projects-section {
-  position: relative;
-}
-
 .projects-background-div {
   display: flex;
   justify-content: center;
-  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .projects-background-div img {
   opacity: .3;
-  position: fixed;
-  width: 60%;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .projects-div {
-  position: absolute;
   align-items: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 30px;
   animation: appear 1s ease-in-out;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .projects-image-div {
@@ -44,6 +36,9 @@
 }
 
 .projects-image-div #vanilla-tilt-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative !important;
   margin: 0 !important;
   width: 100% !important;
@@ -56,13 +51,15 @@
 }
 
 .projects-image-div h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 1s;
   font-size: 1.6em;
   position: absolute;
-  width: 100%;
+  width: 90%;
+  height: 100%;
   text-align: center;
-  top: 50%;
-  transform: translateY(-30px);
 }
 
 .projects-image-div:hover #vanilla-tilt-div h3 {
@@ -79,14 +76,49 @@
   opacity: 1;
 }
 
-#more-projects {
-  text-align: center;
-}
-
 #more-projects h3 {
   color: #f72585;
 }
 
 #more-projects img {
   width: 54%;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .projects-image-div h3 {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .main-projects {
+    padding: 0 18px;
+  }
+  .projects-div {
+    padding: 0;
+  }
+
+  .projects-image-div {
+    margin: 16px;
+    width: 42%;
+  }
+
+  .projects-image-div h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects-image-div {
+    width: 60%;
+  }
 }

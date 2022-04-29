@@ -2,19 +2,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
 }
 
 .skills-section .background-skills {
-  width: 100%;
-  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: -1;
   opacity: .5;
+  width: 100vw;
+  height: 100vh;
 }
 
 .skills-section .background-skills img {
-  width: 70%;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .skills-section .skills-div {
@@ -57,12 +62,12 @@
 }
 
 @media screen and (max-width: 670px) {
-  main {
+  .main-skills {
     padding: 0;
     margin-top: 0;
   }
 
-  .skills-section .skills-div {
+  .skills-section.skills-div {
     margin-top: 0;
   }
 

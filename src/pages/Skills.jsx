@@ -8,7 +8,7 @@ function Skills() {
   return (
     <>
       <Header  pageSelected="SKILLS" />
-      <main>
+      <main className="main-skills">
         <section className="skills-section">
           <div className="background-skills">
             <img src={ skills } alt="Skills" />
