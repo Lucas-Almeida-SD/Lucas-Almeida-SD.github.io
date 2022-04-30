@@ -9,7 +9,7 @@
   align-items: flex-start;
   margin-top: 10%;
   margin-left: 30px;
-  width: 40%;
+  width: 50%;
   animation: appear 2s;
 }
 
@@ -18,12 +18,15 @@
 }
 
 .introduce-div h3 {
-  font-size: 1.4em;
+  font-family: Akaya Telivigala, cursive;
+  font-size: 1.8em;
   color: #E0D09B;
 }
 
 .introduce-div h2 {
-  font-size: 1.8em;
+  font-family: Fredoka One, cursive;
+  font-weight: 100;
+  font-size: 2em;
 }
 
 .introduce-div h2 span:nth-child( 1 ) {
@@ -68,7 +71,7 @@
 }
 
 .programming-image-div {
-  width: 60%;
+  width: 50%;
 }
 
 .programming-image-div img {
@@ -96,11 +99,11 @@
 
 @media screen and (max-width: 910px) {
   .introduce-div h3 {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   
   .introduce-div h2 {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
 
   .programming-image-div {
@@ -120,23 +123,23 @@
   .introduce-div {
     margin-top: 0;
     margin-left: 0;
-    padding: 0 30px;
+    padding: 0 0 0 18px;
     width: 100%;
   }
 
   .programming-image-div {
     align-self: center;
-    width: 80%;
+    width: 90%;
     margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .introduce-div h3 {
-    font-size: 1.0em;
+    font-size: 1.2em;
   }
   
   .introduce-div h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 }

@@ -51,11 +51,12 @@
 }
 
 .projects-image-div h3 {
+  font-family: Orelega One, cursive;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 1s;
-  font-size: 1.6em;
+  font-size: 1.8em;
   position: absolute;
   width: 90%;
   height: 100%;
