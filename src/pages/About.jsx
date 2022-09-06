@@ -32,9 +32,9 @@ function Sobre() {
               Web Full Stack.
             </p>
             <p>
-              Atualmente sou estudante na escola Trybe, finalizadno o módulo 
-              de Front End para então iniciar o módulo de Back End e assim tornar-me 
-              o tão desejado Desenvolvedor Full Stack.
+              Atualmente sou estudante na escola Trybe, no qual já finalizei o módulo 
+              de Front End e já estou finalizando o módulo de Back End, e assim 
+              tornarei-me o tão desejado Desenvolvedor Full Stack.
             </p>
           </div>
         </section>
