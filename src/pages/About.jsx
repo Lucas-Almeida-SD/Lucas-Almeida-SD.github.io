@@ -28,13 +28,14 @@ function Sobre() {
               Olá, meu nome é Lucas Almeida e tenho 25 anos! Sou graduado em 
               engenharia elétrica e, durante minha formação, tive meu primeiro 
               contato com a área de programação e acabei me apaixonando por essa 
-              incrível área, então decidi mudar de carreira para me tornar Desenvolvedor 
-              Web Full Stack.
+              incrível área, então decidi mudar de carreira para me tornar Desenvolvedor.
             </p>
             <p>
-              Atualmente sou estudante na escola Trybe, no qual já finalizei o módulo 
-              de Front End e já estou finalizando o módulo de Back End, e assim 
-              tornarei-me o tão desejado Desenvolvedor Full Stack.
+              Sou estudante de Desenvolvimento Web Full Stack na escola Trybe,
+              no qual já finalizei o módulo de Fundamentos do Desenvolvimento Web,
+              Desenvolvimento Front End e Desenvolvimento Back End, me tornando assim
+              o tão desejado Desenvolvedor Full Stack. Mas minha jornada continua e
+              atualmente estou no módulo de Ciência da Computação.
             </p>
           </div>
         </section>
